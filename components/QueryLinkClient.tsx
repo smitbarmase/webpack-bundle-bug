@@ -11,7 +11,6 @@ export default function QueryLinkClient({
   href: string;
 }>) {
   const searchParams = useSearchParams();
-  console.log(searchParams);
   return (
     <Link href={href} prefetch={false} style={{ color: "blue" }}>
       {children}
